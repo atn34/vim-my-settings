@@ -98,7 +98,6 @@ set statusline+=\ %f%{SymLinkStatus()}     " file name relative to working direc
 set statusline+=\ %r%h%w                   " flags
 set statusline+=\ %y                       " file type
 set statusline+=\ (%{&ff})                 " file format
-set statusline+=\ %{fugitive#statusline()} " git info
 
 function! SymLinkStatus()
     let target = resolve(expand('%'))

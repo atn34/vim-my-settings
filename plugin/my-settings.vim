@@ -104,7 +104,7 @@ set ignorecase              " Default to using case insensitive searches,
 set smartcase               " unless uppercase letters are used in the regex.
 set hlsearch                " Highlight searches by default.
 
-set lazyredraw
+set lazyredraw              " faster macros
 
 " needs to be at end for some reason
 " don't bell or blink

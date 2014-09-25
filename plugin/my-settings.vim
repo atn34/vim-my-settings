@@ -94,7 +94,7 @@ set ruler                   " Show some info, even without statuslines.
 " Status
 set statusline=                            " start status line
 set statusline+=[%l,%v\ %P%M]              " add line number, column and modified flag
-set statusline+=\ %f                       " file name relative to working directory
+set statusline+=\ %t                       " file name tail
 set statusline+=\ %r%h%w                   " flags
 set statusline+=\ %y                       " file type
 set statusline+=\ (%{&ff})                 " file format

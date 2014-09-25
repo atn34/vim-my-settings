@@ -94,20 +94,10 @@ set ruler                   " Show some info, even without statuslines.
 " Status
 set statusline=                            " start status line
 set statusline+=[%l,%v\ %P%M]              " add line number, column and modified flag
-set statusline+=\ %f%{SymLinkStatus()}     " file name relative to working directory
+set statusline+=\ %f                       " file name relative to working directory
 set statusline+=\ %r%h%w                   " flags
 set statusline+=\ %y                       " file type
 set statusline+=\ (%{&ff})                 " file format
-
-function! SymLinkStatus()
-    let target = resolve(expand('%'))
-    let linkname = expand('%')
-    if target != linkname
-        return " -> " . target
-    else
-        return ""
-    endif
-endfunction
 
 " Searching and Patterns
 set ignorecase              " Default to using case insensitive searches,

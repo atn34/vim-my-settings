@@ -106,7 +106,4 @@ set hlsearch                " Highlight searches by default.
 
 set lazyredraw              " faster macros
 
-" needs to be at end for some reason
-" don't bell or blink
-set noerrorbells
-set t_vb=
+set colorcolumn=80          " Highlight column 80

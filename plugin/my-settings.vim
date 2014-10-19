@@ -110,6 +110,3 @@ set colorcolumn=80          " Highlight column 80
 
 " fixes bell for some reason. unclear
 set visualbell
-
-" turn on spell checking
-set spell

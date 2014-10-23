@@ -10,10 +10,6 @@ if filereadable(s:secretrc)
     exec ":source" . s:secretrc
 endif
 
-" local vimrc
-set exrc
-set secure
-
 " ==========================================================
 " Basic Settings
 " ==========================================================

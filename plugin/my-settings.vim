@@ -35,7 +35,7 @@ set list
 set mouse+=a
 
 " disable autocommenting
-autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+autocmd FileType * setlocal formatoptions-=r formatoptions-=o
 
 " disable autowrap
 set wrap linebreak textwidth=0

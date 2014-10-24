@@ -102,7 +102,7 @@ set hlsearch                " Highlight searches by default.
 
 set lazyredraw              " faster macros
 
-set colorcolumn=80          " Highlight column 80
+set colorcolumn=-0          " Highlight column <textwidth>
 
 " fixes bell for some reason. unclear
 set visualbell

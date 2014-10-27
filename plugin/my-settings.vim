@@ -109,3 +109,6 @@ set visualbell
 
 " use X11 clipboard
 set clipboard=unnamedplus
+
+" always show tab line
+set showtabline=2

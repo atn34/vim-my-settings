@@ -16,7 +16,6 @@ endif
 syntax on                     " syntax highlighing
 filetype on                   " try to detect filetypes
 filetype plugin indent on     " enable loading indent file for filetype
-set number                    " Display line numbers
 set numberwidth=1             " using only 1 column (and 1 space) while possible
 set title                     " show title in console title bar
 set wildmode=full             " <Tab> cycles between all matching choices.
@@ -102,7 +101,7 @@ set hlsearch                " Highlight searches by default.
 
 set lazyredraw              " faster macros
 
-set colorcolumn=-0          " Highlight column <textwidth>
+set colorcolumn=+1          " Highlight column <textwidth>
 
 " fixes bell for some reason. unclear
 set visualbell
@@ -112,3 +111,5 @@ set clipboard=unnamedplus
 
 " always show tab line
 set showtabline=2
+
+set relativenumber

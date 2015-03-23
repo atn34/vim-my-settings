@@ -104,7 +104,8 @@ set lazyredraw              " faster macros
 set colorcolumn=+1          " Highlight column <textwidth>
 
 " fixes bell for some reason. unclear
-set visualbell
+set noerrorbells visualbell t_vb=
+autocmd GUIEnter * set visualbell t_vb=
 
 " use X11 clipboard
 set clipboard=unnamedplus
@@ -113,3 +114,12 @@ set clipboard=unnamedplus
 set showtabline=2
 
 set relativenumber
+
+set guioptions-=m
+set guioptions-=T
+set guioptions-=r
+set guioptions-=L
+set guiheadroom=0
+
+set guifont=Ubuntu\ Mono\ 10
+

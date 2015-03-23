@@ -123,3 +123,4 @@ set guiheadroom=0
 
 set guifont=Ubuntu\ Mono\ 10
 
+au FileType qf wincmd J

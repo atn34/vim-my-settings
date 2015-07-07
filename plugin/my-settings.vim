@@ -27,9 +27,6 @@ set directory=~/.vim/swap//,. " keep swp files under ~/.vim/swap
 
 set history=1000
 
-" visualize trailing whitespace
-set list
-
 " enable mouse
 set mouse+=a
 
@@ -59,7 +56,6 @@ set splitright
 set splitbelow
 
 " Moving Around/Editing
-set cursorline              " have a line indicate the cursor location
 set ruler                   " show the cursor position all the time
 set nostartofline           " Avoid moving cursor to BOL when jumping around
 set virtualedit=block       " Let cursor move past the last char in <C-v> mode
@@ -124,3 +120,14 @@ set guiheadroom=0
 set guifont=Ubuntu\ Mono\ 10
 
 au FileType qf wincmd J
+
+" transparent background
+hi Normal ctermbg=none
+
+"cyan match paren
+hi MatchParen cterm=none ctermfg=cyan
+
+" intended to fix <esc> key being interpreted as <alt> key when typing too
+" quickly
+set ttimeout
+set ttimeoutlen=0

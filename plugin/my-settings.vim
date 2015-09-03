@@ -109,8 +109,6 @@ set clipboard=unnamedplus
 " always show tab line
 set showtabline=2
 
-set relativenumber
-
 set guioptions-=m
 set guioptions-=T
 set guioptions-=r

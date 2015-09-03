@@ -125,6 +125,9 @@ hi Normal ctermbg=none
 "cyan match paren
 hi MatchParen cterm=none ctermfg=cyan
 
+" Make comments more visible
+highlight Comment ctermfg=green
+
 " intended to fix <esc> key being interpreted as <alt> key when typing too
 " quickly
 set ttimeout

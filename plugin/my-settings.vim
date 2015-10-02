@@ -27,9 +27,6 @@ set directory=~/.vim/swap//,. " keep swp files under ~/.vim/swap
 
 set history=1000
 
-" enable mouse
-set mouse+=a
-
 " disable autocommenting
 autocmd FileType * setlocal formatoptions-=r formatoptions-=o
 

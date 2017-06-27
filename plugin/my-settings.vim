@@ -110,7 +110,6 @@ set guioptions-=m
 set guioptions-=T
 set guioptions-=r
 set guioptions-=L
-set guiheadroom=0
 
 set guifont=Ubuntu\ Mono\ 12
 

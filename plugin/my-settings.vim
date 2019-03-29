@@ -128,3 +128,9 @@ highlight Comment ctermfg=green
 " quickly
 set ttimeout
 set ttimeoutlen=0
+
+" ***errorformat stuff***
+" doctest: https://github.com/onqtam/doctest
+let &errorformat='%f(%l) ERROR!' . ',' . &errorformat
+" asan
+let &errorformat=' SUMMARY: AddressSanitizer: %m %f:%l in %.%#' . ',' . &errorformat
